@@ -13,7 +13,9 @@ class CreateUser(UserCreationForm):
             'username', 
             'first_name',
             'last_name',
+            'id_number',
             'email', 
+            'address',
             'password1', 
             'password2', 
             ]
